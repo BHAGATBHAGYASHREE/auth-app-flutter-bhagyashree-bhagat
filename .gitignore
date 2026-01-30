@@ -1,0 +1,23 @@
+cat <<EOF > .gitignore
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Flutter platforms
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+windows/build/
+linux/build/
+macos/build/
+EOF
